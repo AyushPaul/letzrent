@@ -10,6 +10,8 @@ import {
   Link
 } from "react-router-dom";
 import Pitch from './components/Pitch';
+import Details from './components/Details';
+import Comments from './components/Comments';
 
 function App() {
 
@@ -38,7 +40,8 @@ function App() {
           <img id='logo' src='https://api.pepcorns.com/clientassets/icon1651230435196.png' width={100} height={100} style={{borderRadius:"50%"}}></img>
         </div>
         <div className='col-sm-6 py-4 my-3 mx-4' style={{textAlign:"left" , lineHeight:"1"}}>
-          <h1>Letzrent</h1>
+          <a href="https://app.pepcorns.com/" style={{textDecoration:"none",color:"black"}}><h1>Letzrent</h1></a>
+          
           <p>Address : Mumbai Maharashtra</p>
           <p>EMAIL : | Website : https://letzrent.com | PAN/TAN : AAJCR3294F</p>
           <p style={{size:"5px" , paddingTop:"0px"}}>Online search, compare & booking platform for self-drive cars, charter flights, living space & more that rewards users</p>
@@ -119,9 +122,9 @@ function App() {
       <div className='row'>
         <div className='col-sm-8'>
         <Link to="/pitch"><button type="button" class="btn btn-primary my-2 px-4 mx-5" style={{backgroundColor:"#5e72e4" , boxShadow:"20px black"}}>Pitch</button></Link>
-        <button type="button" class="btn btn-primary my-2 px-4 mx-4" style={{backgroundColor:"#5e72e4"}}>Details</button>
-        <button type="button" class="btn btn-primary my-2 px-4 mx-4" style={{backgroundColor:"#5e72e4"}}>Updates</button>
-        <button type="button" class="btn btn-primary my-2 px-4 mx-" style={{backgroundColor:"#5e72e4"}}>Comments (2)</button>
+        <Link to="/details"><button type="button" class="btn btn-primary my-2 px-4 mx-4" style={{backgroundColor:"#5e72e4" , boxShadow:"20px black"}}>Details</button></Link>
+        <Link to="/updates"><button type="button" class="btn btn-primary my-2 px-4 mx-5" style={{backgroundColor:"#5e72e4" , boxShadow:"20px black"}}>Updates</button></Link>
+        <Link to="/comments"><button type="button" class="btn btn-primary my-2 px-4 mx-4" style={{backgroundColor:"#5e72e4" , boxShadow:"20px black"}}>Comments (2)</button></Link>
         </div>
        <div className='col-sm-4' style={{marginLeft:"-25px"}}>
           <h1>Deal Terms</h1>
@@ -141,16 +144,24 @@ function App() {
               </Route>
               <Route exact path="/pitch" element = {<div class="card" style={{width:"100%" ,backgroundColor:"#edf1f5" , padding:"5px" ,marginTop:"0px"}}>
                 <div class="card-body" style={{backgroundColor:"#edf1f5"}}>
-                  <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 2000</h1>
-                  <small>Invest</small>
-                  <hr></hr>
-                  <small>• LetzRent Premium Apparel (T-shirts & Coffee Mug) • Early access to new features & promotions</small>
-                  <hr></hr>
-                  <small>• TNC : Limited to the first 100</small>
+                 <Pitch></Pitch>
                 </div>
               </div>}>
               </Route>
+              <Route exact path="/details" element = {<>
+              <Details></Details></>}>
+              </Route>
 
+              <Route exact path="/updates" element = {<div class="card" style={{width:"100%" ,backgroundColor:"#edf1f5" , padding:"5px" ,marginTop:"0px"}}>
+                <div class="card-body" style={{backgroundColor:"#edf1f5"}}>
+                 <hr></hr>
+                </div>
+              </div>}>
+              </Route>
+              <Route exact path="/comments" element = {<>
+              <Comments></Comments></>}>
+              </Route>
+              
             </Switch>
           
         </div>
