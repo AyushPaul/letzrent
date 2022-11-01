@@ -175,56 +175,112 @@ function App() {
             <small>• LetzRent Premium Apparel (T-shirts & Coffee Mug) • Early access to new features & promotions</small>
             <hr></hr>
             <small>• TNC : Limited to the first 100</small>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button" disabled style={{backgroundColor:"#5e72e4" , marginTop:"20px" , padding:"5px"}}>Invest</button>
+            </div>
           </div>
         </div>
         <div class="card" style={{marginLeft:"70px",width:"18rem" ,backgroundColor:"#edf1f5" , padding:"5px",marginTop:"15px"}}>
           <div class="card-body" style={{backgroundColor:"#edf1f5"}}>
-            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 2000</h1>
+            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 5000</h1>
             <small>Invest</small>
             <hr></hr>
-            <small>• LetzRent Premium Apparel (T-shirts & Coffee Mug) • Early access to new features & promotions</small>
+            <small>• LetzRent Premium Apparel Box  (T-shirts, Sweatshirts & additional Swag)</small>
+            <br></br>
+            <small>• Early access to new features & promotions</small>
             <hr></hr>
-            <small>• TNC : Limited to the first 100</small>
+            <small>• TNC : Limited to the first 200</small>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button" disabled style={{backgroundColor:"#5e72e4" , marginTop:"20px" , padding:"5px"}}>Invest</button>
+            </div>
           </div>
         </div>
         <div class="card" style={{marginLeft:"70px",width:"18rem" ,backgroundColor:"#edf1f5" , padding:"5px",marginTop:"15px"}}>
           <div class="card-body" style={{backgroundColor:"#edf1f5"}}>
-            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 2000</h1>
+            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 10000</h1>
             <small>Invest</small>
             <hr></hr>
-            <small>• LetzRent Premium Apparel (T-shirts & Coffee Mug) • Early access to new features & promotions</small>
+            <small>• Exclusive interest in owning equity with an investment of ₹50,000 — ₹2,00,000</small>
+            <br></br>
+            <small> • Invite to exclusive LetzRent team chat</small>
+            <br></br>
+            <small>• LetzRent Premium Apparel Box  (T-shirts, Sweatshirts & additional Swag)</small>
+            <br></br>
+            <small>• Early access to new features & promotions</small>
             <hr></hr>
-            <small>• TNC : Limited to the first 100</small>
+            <small>• TNC : Equity benefits with no voting rights. Limited to the first 5 investors.</small>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button" disabled style={{backgroundColor:"#5e72e4" , marginTop:"20px" , padding:"5px"}}>Invest</button>
+            </div>
           </div>
         </div>
         <div class="card" style={{marginLeft:"70px",width:"18rem" ,backgroundColor:"#edf1f5" , padding:"5px",marginTop:"15px"}}>
           <div class="card-body" style={{backgroundColor:"#edf1f5"}}>
-            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 2000</h1>
+            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 25000</h1>
             <small>Invest</small>
             <hr></hr>
-            <small>• LetzRent Premium Apparel (T-shirts & Coffee Mug) • Early access to new features & promotions</small>
+            <small>• Exclusive interest in owning equity with an investment of ₹3,00,000 — ₹10,00,000 </small>
+            <br></br>
+            <small>• One-on-one 30 minute video call with Co-Founders</small>
+            <br></br>
+            <small> • Invite to exclusive LetzRent team chat</small>
+            <br></br>
+            <small>• LetzRent Premium Apparel Box  (T-shirts, Sweatshirts & additional Swag)</small>
+            <br></br>
+            <small>• Early access to new features & promotions</small>
             <hr></hr>
-            <small>• TNC : Limited to the first 100</small>
+            <small>• TNC : Equity benefits with no voting rights. Limited to the first 5 investors.</small>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button" disabled style={{backgroundColor:"#5e72e4" , marginTop:"20px" , padding:"5px"}}>Invest</button>
+            </div>
           </div>
         </div>
         <div class="card" style={{marginLeft:"70px",width:"18rem" ,backgroundColor:"#edf1f5" , padding:"5px",marginTop:"15px"}}>
           <div class="card-body" style={{backgroundColor:"#edf1f5"}}>
-            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 2000</h1>
+            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 50000</h1>
             <small>Invest</small>
             <hr></hr>
-            <small>• LetzRent Premium Apparel (T-shirts & Coffee Mug) • Early access to new features & promotions</small>
+            <small>• Exclusive interest in owning equity with an investment of ₹11,00,000 — ₹30,00,000  </small>
+            <br></br>
+            <small>• In-Person dinner with Co-Founder in Whitefield, Bangalore</small>
+            <br></br>
+            <small>• One-on-one 30 minute video call with Co-Founders</small>
+            <br></br>
+            <small> • Invite to exclusive LetzRent team chat</small>
+            <br></br>
+            <small>• LetzRent Premium Apparel Box  (T-shirts, Sweatshirts & additional Swag)</small>
+            <br></br>
+            <small>• Early access to new features & promotions</small>
             <hr></hr>
-            <small>• TNC : Limited to the first 100</small>
+            <small>• TNC : Equity benefits with voting rights. Limited to the first 5 investors.</small>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button" disabled style={{backgroundColor:"#5e72e4" , marginTop:"20px" , padding:"5px"}}>Invest</button>
+            </div>
           </div>
         </div>
         <div class="card" style={{marginLeft:"70px",width:"18rem" ,backgroundColor:"#edf1f5" , padding:"5px",marginTop:"15px"}}>
           <div class="card-body" style={{backgroundColor:"#edf1f5"}}>
-            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 2000</h1>
+            <h1 class="card-title" style={{backgroundColor:"#edf1f5" , color:"#5e72e4"}}>₹ 100000</h1>
             <small>Invest</small>
             <hr></hr>
-            <small>• LetzRent Premium Apparel (T-shirts & Coffee Mug) • Early access to new features & promotions</small>
+            <small>• Exclusive interest in owning equity with an investment of above  ₹40,00,000  </small>
+            <br></br>
+            <small>• LetzRent Weekend Experience: Flight & Hotel on us</small>
+            <br></br>
+            <small>• In-Person dinner with Co-Founder in Whitefield, Bangalore</small>
+            <br></br>
+            <small>• One-on-one 30 minute video call with Co-Founders</small>
+            <br></br>
+            <small> • Invite to exclusive LetzRent team chat</small>
+            <br></br>
+            <small>• LetzRent Premium Apparel Box  (T-shirts, Sweatshirts & additional Swag)</small>
+            <br></br>
+            <small>• Early access to new features & promotions</small>
             <hr></hr>
-            <small>• TNC : Limited to the first 100</small>
+            <small>• TNC : Equity benefits with voting rights(open for discussion of term sheet). Limited to the first 2 investors.</small>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button" disabled style={{backgroundColor:"#5e72e4" , marginTop:"20px" , padding:"5px"}}>Invest</button>
+            </div>
           </div>
         </div>
         </div>
